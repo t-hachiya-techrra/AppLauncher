@@ -25,7 +25,7 @@ void read_config(char* program, size_t programSize, char* arguments, size_t argu
 	fclose(file);
 }
 
-int main() {
+int WinMain() {
 	char program[256];
 	char arguments[256];
 
